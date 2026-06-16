@@ -21,7 +21,7 @@ from backend.ml_model import predict_disease_risk
 from backend.rag_engine import generate_treatment_recommendations
 from backend.medication_service import analyze_prescription, extract_text_from_prescription_image
 
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = os.getenv("HEALTHAI_API_BASE_URL", "http://127.0.0.1:8000")
 
 def log_debug(msg):
     try:
