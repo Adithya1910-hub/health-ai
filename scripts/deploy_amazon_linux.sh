@@ -25,7 +25,8 @@ git pull --ff-only
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+REQUIREMENTS_FILE="${REQUIREMENTS_FILE:-requirements-ec2.txt}"
+python -m pip install -r "$REQUIREMENTS_FILE"
 
 cat > .env.ec2 <<'ENV'
 HEALTHAI_HOST=0.0.0.0

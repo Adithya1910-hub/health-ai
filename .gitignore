@@ -31,6 +31,6 @@ data/uploaded_reports/
 # Local editor and OS files
 .vscode/
 .idea/
+.deploy/
 .DS_Store
 Thumbs.db
-

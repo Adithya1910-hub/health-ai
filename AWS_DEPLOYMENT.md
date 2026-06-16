@@ -40,7 +40,7 @@ sudo dnf install -y git python3 python3-pip
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements-ec2.txt
 
 export HEALTHAI_HOST=0.0.0.0
 export HEALTHAI_BACKEND_PORT=8000
@@ -73,4 +73,3 @@ bash scripts/deploy_amazon_linux.sh
 ```
 
 Then start the app with the command printed by the script.
-
