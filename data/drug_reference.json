@@ -1,0 +1,261 @@
+{
+  "drugs": {
+    "metformin": {
+      "display_name": "Metformin",
+      "aliases": ["metformin", "glucophage", "fortamet"],
+      "category": "Antidiabetic",
+      "uses": "Lowers blood sugar in Type 2 diabetes; improves insulin sensitivity",
+      "side_effects": ["Nausea", "Diarrhea", "Stomach upset", "Metallic taste", "Vitamin B12 deficiency (long-term)"],
+      "warnings": ["Avoid if eGFR < 30", "Hold 48h before/after iodinated contrast imaging", "Risk of lactic acidosis (rare)"]
+    },
+    "amlodipine": {
+      "display_name": "Amlodipine",
+      "aliases": ["amlodipine", "norvasc"],
+      "category": "Calcium Channel Blocker",
+      "uses": "Lowers blood pressure; treats hypertension and angina",
+      "side_effects": ["Ankle swelling (edema)", "Flushing", "Headache", "Dizziness", "Fatigue"],
+      "warnings": ["Use caution in severe aortic stenosis", "May cause hypotension"]
+    },
+    "lisinopril": {
+      "display_name": "Lisinopril",
+      "aliases": ["lisinopril", "zestril", "prinivil"],
+      "category": "ACE Inhibitor",
+      "side_effects": ["Dry cough", "Dizziness", "Hyperkalemia", "Headache", "Fatigue"],
+      "warnings": ["Contraindicated in pregnancy", "Monitor potassium and kidney function", "Angioedema risk (rare)"]
+    },
+    "atorvastatin": {
+      "display_name": "Atorvastatin",
+      "aliases": ["atorvastatin", "lipitor"],
+      "category": "Statin",
+      "uses": "Lowers LDL cholesterol and reduces cardiovascular risk",
+      "side_effects": ["Muscle pain/weakness", "Headache", "Nausea", "Elevated liver enzymes", "Joint pain"],
+      "warnings": ["Report unexplained muscle pain immediately", "Avoid grapefruit juice in large amounts"]
+    },
+    "aspirin": {
+      "display_name": "Aspirin",
+      "aliases": ["aspirin", "acetylsalicylic acid", "asa"],
+      "category": "Antiplatelet / NSAID",
+      "side_effects": ["Stomach irritation", "Heartburn", "Bleeding risk", "Bruising", "Tinnitus (high doses)"],
+      "warnings": ["Increased bleeding risk with anticoagulants", "Reye syndrome risk in children", "Avoid before surgery"]
+    },
+    "warfarin": {
+      "display_name": "Warfarin",
+      "aliases": ["warfarin", "coumadin"],
+      "category": "Anticoagulant",
+      "side_effects": ["Bleeding", "Bruising", "Nausea", "Hair loss (rare)"],
+      "warnings": ["Requires regular INR monitoring", "Many drug and food interactions", "Avoid sudden diet changes"]
+    },
+    "ibuprofen": {
+      "display_name": "Ibuprofen",
+      "aliases": ["ibuprofen", "advil", "motrin", "brufen"],
+      "category": "NSAID",
+      "side_effects": ["Stomach pain", "Nausea", "Heartburn", "Dizziness", "Kidney effects (long-term)"],
+      "warnings": ["Avoid with active GI bleeding", "Use caution in kidney disease", "May raise blood pressure"]
+    },
+    "omeprazole": {
+      "display_name": "Omeprazole",
+      "aliases": ["omeprazole", "prilosec", "losec"],
+      "category": "Proton Pump Inhibitor",
+      "side_effects": ["Headache", "Diarrhea", "Abdominal pain", "Nausea", "Vitamin B12/magnesium deficiency (long-term)"],
+      "warnings": ["Long-term use may increase fracture risk", "May mask gastric cancer symptoms"]
+    },
+    "levothyroxine": {
+      "display_name": "Levothyroxine",
+      "aliases": ["levothyroxine", "synthroid", "levoxyl", "thyroxine"],
+      "category": "Thyroid Hormone",
+      "side_effects": ["Palpitations", "Weight loss", "Tremor", "Insomnia", "Heat intolerance (if over-replaced)"],
+      "warnings": ["Take on empty stomach", "Many drug interactions affect absorption", "Dose adjustments needed in pregnancy"]
+    },
+    "metoprolol": {
+      "display_name": "Metoprolol",
+      "aliases": ["metoprolol", "lopressor", "toprol"],
+      "category": "Beta Blocker",
+      "side_effects": ["Fatigue", "Dizziness", "Bradycardia", "Cold extremities", "Depression (rare)"],
+      "warnings": ["Do not stop abruptly", "Masks hypoglycemia symptoms in diabetics", "Use caution in asthma"]
+    },
+    "gabapentin": {
+      "display_name": "Gabapentin",
+      "aliases": ["gabapentin", "neurontin"],
+      "category": "Anticonvulsant / Neuropathic pain",
+      "side_effects": ["Drowsiness", "Dizziness", "Fatigue", "Peripheral edema", "Ataxia"],
+      "warnings": ["May cause respiratory depression with opioids", "Adjust dose in kidney disease"]
+    },
+    "prednisone": {
+      "display_name": "Prednisone",
+      "aliases": ["prednisone", "deltasone"],
+      "category": "Corticosteroid",
+      "side_effects": ["Weight gain", "Mood changes", "Insomnia", "High blood sugar", "Increased infection risk"],
+      "warnings": ["Taper gradually — do not stop suddenly", "Monitor blood sugar in diabetics"]
+    },
+    "amoxicillin": {
+      "display_name": "Amoxicillin",
+      "aliases": ["amoxicillin", "amoxil"],
+      "category": "Antibiotic (Penicillin)",
+      "side_effects": ["Diarrhea", "Nausea", "Rash", "Vomiting", "Yeast infection"],
+      "warnings": ["Contraindicated if allergic to penicillin", "Complete full course"]
+    },
+    "paracetamol": {
+      "display_name": "Paracetamol (Acetaminophen)",
+      "aliases": ["paracetamol", "acetaminophen", "tylenol", "panadol"],
+      "category": "Analgesic / Antipyretic",
+      "side_effects": ["Generally well tolerated", "Nausea (rare)", "Rash (rare)"],
+      "warnings": ["Hepatotoxicity in overdose", "Max 4g/day in adults", "Check combination cold medicines for duplicate acetaminophen"]
+    },
+    "insulin": {
+      "display_name": "Insulin",
+      "aliases": ["insulin", "lantus", "humalog", "novolog", "apidra", "toujeo"],
+      "category": "Antidiabetic",
+      "uses": "Controls blood sugar in diabetes",
+      "side_effects": ["Hypoglycemia", "Weight gain", "Injection site reactions", "Lipodystrophy"],
+      "warnings": ["Monitor blood glucose closely", "Hypoglycemia risk increases with missed meals or excess dose"]
+    },
+    "pantoprazole": {
+      "display_name": "Pantoprazole",
+      "aliases": ["pantoprazole", "pantocid", "protonix", "pan 40"],
+      "category": "Proton Pump Inhibitor (PPI)",
+      "uses": "Reduces stomach acid for acidity, GERD, and ulcer protection",
+      "side_effects": ["Headache", "Diarrhea", "Nausea", "Abdominal pain", "Vitamin B12 deficiency (long-term)", "Magnesium deficiency (long-term)"],
+      "warnings": ["Take 30-60 min before breakfast on empty stomach", "Long-term use may increase fracture risk", "Do not stop abruptly without doctor advice"]
+    },
+    "vitamin_d3": {
+      "display_name": "Vitamin D3 (Cholecalciferol)",
+      "aliases": ["vitamin d3", "vit d3", "vitamin d", "cholecalciferol", "vitamind3", "d3 60000"],
+      "category": "Vitamin / Supplement",
+      "uses": "Treats Vitamin D deficiency, supports bone health and calcium absorption",
+      "side_effects": ["Generally well tolerated", "Nausea (rare)", "Constipation (rare)", "Hypercalcemia if overdosed"],
+      "warnings": ["High doses should be taken weekly as prescribed, not daily", "Monitor calcium levels with prolonged high-dose therapy"]
+    }
+  },
+  "interactions": [
+    {
+      "drugs": ["warfarin", "aspirin"],
+      "severity": "Major",
+      "description": "Combined use significantly increases bleeding risk. Requires close INR monitoring and physician oversight."
+    },
+    {
+      "drugs": ["warfarin", "ibuprofen"],
+      "severity": "Major",
+      "description": "NSAIDs increase bleeding risk and may destabilize INR control when combined with warfarin."
+    },
+    {
+      "drugs": ["lisinopril", "ibuprofen"],
+      "severity": "Moderate",
+      "description": "NSAIDs may reduce ACE inhibitor blood pressure effect and worsen kidney function."
+    },
+    {
+      "drugs": ["lisinopril", "amlodipine"],
+      "severity": "Minor",
+      "description": "Commonly co-prescribed for hypertension. Monitor for additive hypotension and ankle edema."
+    },
+    {
+      "drugs": ["metformin", "ibuprofen"],
+      "severity": "Moderate",
+      "description": "NSAIDs may impair kidney function and increase metformin-associated lactic acidosis risk in vulnerable patients."
+    },
+    {
+      "drugs": ["atorvastatin", "amlodipine"],
+      "severity": "Moderate",
+      "description": "Amlodipine increases atorvastatin levels. Limit atorvastatin to 20mg daily when used together."
+    },
+    {
+      "drugs": ["metoprolol", "amlodipine"],
+      "severity": "Moderate",
+      "description": "Additive blood pressure and heart rate lowering. Monitor for bradycardia and hypotension."
+    },
+    {
+      "drugs": ["omeprazole", "clopidogrel"],
+      "severity": "Moderate",
+      "description": "Omeprazole may reduce effectiveness of clopidogrel. Consider alternative PPI if on clopidogrel."
+    },
+    {
+      "drugs": ["levothyroxine", "omeprazole"],
+      "severity": "Moderate",
+      "description": "PPIs reduce levothyroxine absorption. Separate dosing by at least 4 hours."
+    },
+    {
+      "drugs": ["gabapentin", "prednisone"],
+      "severity": "Minor",
+      "description": "Additive CNS depression possible. Monitor sedation and dizziness."
+    },
+    {
+      "drugs": ["insulin", "metformin"],
+      "severity": "Minor",
+      "description": "Commonly combined for diabetes. Increased hypoglycemia risk — monitor blood glucose closely."
+    },
+    {
+      "drugs": ["aspirin", "ibuprofen"],
+      "severity": "Moderate",
+      "description": "Ibuprofen may interfere with aspirin's antiplatelet effect if taken before aspirin. Take aspirin 30 min before ibuprofen."
+    },
+    {
+      "drugs": ["prednisone", "ibuprofen"],
+      "severity": "Moderate",
+      "description": "Increased risk of GI ulceration and bleeding when corticosteroids are combined with NSAIDs."
+    },
+    {
+      "drugs": ["warfarin", "amoxicillin"],
+      "severity": "Moderate",
+      "description": "Antibiotics may alter gut flora and INR. Monitor INR more frequently during antibiotic course."
+    },
+    {
+      "drugs": ["metformin", "contrast dye"],
+      "severity": "Major",
+      "description": "Hold metformin around iodinated contrast procedures due to risk of acute kidney injury and lactic acidosis."
+    },
+    {
+      "drugs": ["amlodipine", "metformin"],
+      "severity": "Minor",
+      "description": "Commonly prescribed together for diabetic hypertension. Monitor blood pressure and blood sugar regularly."
+    },
+    {
+      "drugs": ["pantoprazole", "metformin"],
+      "severity": "Moderate",
+      "description": "Long-term PPI use with metformin may increase risk of Vitamin B12 deficiency. Monitor B12 levels periodically."
+    },
+    {
+      "drugs": ["pantoprazole", "atorvastatin"],
+      "severity": "Minor",
+      "description": "PPIs are sometimes used to protect stomach when on statins. Generally safe; take pantoprazole before breakfast."
+    },
+    {
+      "drugs": ["pantoprazole", "amlodipine"],
+      "severity": "Minor",
+      "description": "No major interaction. Take pantoprazole before breakfast; amlodipine after breakfast as prescribed."
+    },
+    {
+      "drugs": ["metformin", "atorvastatin"],
+      "severity": "Minor",
+      "description": "Common combination for metabolic syndrome (diabetes + high cholesterol). Monitor liver enzymes and blood sugar."
+    },
+    {
+      "drugs": ["omeprazole", "atorvastatin"],
+      "severity": "Minor",
+      "description": "PPIs and statins are frequently co-prescribed. Generally well tolerated together."
+    },
+    {
+      "drugs": ["pantoprazole", "omeprazole"],
+      "severity": "Major",
+      "description": "Do not combine two PPIs. Use only one proton pump inhibitor at a time."
+    },
+    {
+      "drugs": ["vitamin_d3", "atorvastatin"],
+      "severity": "Minor",
+      "description": "No significant interaction. Vitamin D supports bone health; continue as prescribed."
+    },
+    {
+      "drugs": ["vitamin_d3", "metformin"],
+      "severity": "Minor",
+      "description": "No significant interaction. Vitamin D supplementation is commonly needed in diabetic patients."
+    },
+    {
+      "drugs": ["vitamin_d3", "amlodipine"],
+      "severity": "Minor",
+      "description": "No known significant interaction between Vitamin D3 and Amlodipine."
+    },
+    {
+      "drugs": ["vitamin_d3", "pantoprazole"],
+      "severity": "Moderate",
+      "description": "PPIs may reduce absorption of Vitamin D and calcium over time. Ensure adequate supplementation and monitoring."
+    }
+  ]
+}
